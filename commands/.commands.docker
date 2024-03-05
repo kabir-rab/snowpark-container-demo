@@ -1,0 +1,11 @@
+# To build docker image
+docker build -t sf_meetup_data_gen .
+
+# To list all docker images in the current machine/server
+docker images
+
+#run the docker image and map it to local port
+docker run -d -p 5000:5000 sf_meetup_data_gen
+
+# To list the docker image status, use the following command
+docker ps -a

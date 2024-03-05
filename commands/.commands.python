@@ -1,0 +1,14 @@
+# To install virtual environment package for python
+python -m pip install virtualenv
+
+# To create virtual environment name vinv
+python -m venv venv
+
+# To switch to virtual environment
+venv/Scripts/activate
+
+# To install flask
+pip install flask
+
+# To install ad hoc certificate in flask
+pip install pyopenssl
